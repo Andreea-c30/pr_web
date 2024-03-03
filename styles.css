@@ -1,187 +1,340 @@
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .title{
-    text-align: left;
-    margin-left: 150px;
-    color: #060606;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
-  .topnav {
-    overflow: hidden;
-    background-color: #fffefe;
-    padding: 30px;
-  }
-  
-  .topnav a{
-    float: center;
-    color: #060606;
-    text-align: center;
-    padding: 20px 30px;
-    text-decoration: none;
-    font-size: 17px;
-    margin-left: 30px;
-  }
+.title{
+  text-align: left;
+  margin-left: 150px;
+  color: #060606;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #fffefe;
+  padding: 30px;
+}
+
+.topnav a{
+  float: center;
+  color: #060606;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 30px;
+}
+
+.topnav a:hover {
+  color: #B88E2F;
+}
+
+.banner {
+  background-image: url('img/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:500px;
+}
+
+.rectangle{
+  width:550px;
+  height:200px;
+  background-color: #FFF3E3;
+  position: absolute ;
+  margin-top: 150px;
+  margin-left: 700px;
+  z-index: 0; /* set lower z-index value */
+
+}
+
+.rectangle p{
+  margin-left: 20px;
+  color: #888585;
+}
+
+.rectangle h3{
+  margin-left: 20px;
+  color: #131313;
+}
+
+.button {
+  background-color: #B88E2F;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 270px;
+  margin-left: 900px;
+  cursor: pointer;
+  z-index: 1; /* set higher z-index value */
+  position:absolute;
  
-  .topnav a:hover {
-    color: #B88E2F;
-  }
+ 
+}
 
-  .banner {
-    background-image: url('img/banner.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:500px;
-  }
+.recepies{
+  text-align: center;
+  margin: auto;
+  width: 40%;
+}
+.sec{
+  text-align: center;
+  margin: auto;
+  width: 40%;
+}
 
-  .rectangle{
-    width:550px;
-    height:200px;
-    background-color: #FFF3E3;
-    position: absolute ;
-    margin-top: 150px;
-    margin-left: 700px;
-    z-index: 0; /* set lower z-index value */
-  
-  }
+.rep_img {
+  margin: 10px;
+  float: left;
+  width: 180px;
+}
 
-  .rectangle p{
-    margin-left: 20px;
-    color: #888585;
-  }
+.rep_img:hover {
+background-color: #afaca9;
+}
 
-  .rectangle h3{
-    margin-left: 20px;
-    color: #131313;
-  }
+.rep_img img {
+  width: 100%;
+  height: 200px;
+}
 
-  .button {
-    background-color: #B88E2F;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin-top: 270px;
-    margin-left: 900px;
-    cursor: pointer;
-    z-index: 1; /* set higher z-index value */
-    position:absolute;
-   
-   
-  }
-  
-  .recepies{
-    text-align: center;
-    margin: auto;
-    width: 40%;
-  }
-  .sec{
-    text-align: center;
-    margin: auto;
-    width: 40%;
-  }
+.desc_rep {
+  text-align: center;
+}
 
- .rep_img {
-    margin: 10px;
-    float: left;
-    width: 180px;
-  }
-  
- .rep_img:hover {
+.desc_meal {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.desc_meal a{
+  font-size: 10px;
+  color: #777;
+}
+
+.plan_img {
+  margin: 20px;
+  float: left;
+  border:1px #060606;
+  width: 180px;
+ 
   background-color: #afaca9;
-  }
+
+}
+.section_plan{
+ 
+  margin-left: 300px;
+  width: 60%;
   
- .rep_img img {
+ 
+}
+ .section_plan h3{
+    padding-top: 20px;
+    text-align: center; 
+   
+  }
+.plan_img:hover {
+  border: 1px solid #777;
+}
+
+.plan_img img {
+  width: 100%;
+  height: 200px;
+}
+
+.bg {
+  background-color: #FFF3E3;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:400px;
+ 
+}
+
+
+.button2 {
+  border: 1px, #B88E2F;
+  border-color: #B88E2F;
+  color: #B88E2F;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  background-color: #ffffff;
+  margin-top: 30px;
+  margin-left: auto;
+ 
+}
+table * {
+margin-left: 300px;
+width:150px
+}
+.menu_el{
+color: #090808;
+padding-left: 90px;
+padding-right: 0px;
+
+}
+.help_el{
+color: #050505;
+padding-left: 85px;
+padding-right: 0px;
+
+}
+.contacts{
+color: #777;
+padding-left: 90px;
+padding-right: 0px;
+
+}
+.title_form{
+color: #777;
+padding: 0px;
+}
+
+#space{
+  margin-top: 50px;
+  color:rgb(236, 234, 234);
+  background-color:rgb(236, 234, 234);
+}
+
+footer p{
+  margin-left: 300px;
+  color: #777;
+}
+footer hr{
+  margin-left: 200px;
+  margin-right: 200px;
+  color:rgb(236, 234, 234);
+  background-color:rgb(236, 234, 234);
+}
+
+/* Responsive design */
+@media only screen and (max-width: 768px) {
+.title{
+  text-align: left;
+  margin-left: 8px;
+  color: #060606;
+}
+
+.topnav a{
+  padding: 7px;
+  margin-left: 0px;
+  text-decoration: none;
+  font-size: 13px;
+ 
+}
+.menu {
+  display: block;
+
+}
+.menu a img{
+  height: 14px;
+  width: 14px;
+
+ }
+
+ .rectangle{
+  width:300px;
+  height:200px;
+  background-color: #FFF3E3;
+  position: absolute ;
+  margin-top: 150px;
+  margin-left: 70px;
+  z-index: 0; /* set lower z-index value */
+
+}
+
+.rectangle p{
+  margin-left: 20px;
+  color: #888585;
+  font-size: 14px;
+}
+
+.rectangle h3{
+  margin-left: 20px;
+  color: #131313;
+  font-size: 16px;
+}
+
+.button {
+  background-color: #B88E2F;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 280px;
+  margin-left: 150px;
+  cursor: pointer;
+  z-index: 1; /* set higher z-index value */
+  position:absolute;
+ 
+}
+
+.recepies{
+  text-align: center;
+  margin-left: auto;
+  width: 100%;
+ 
+}
+
+.sec{
+  text-align: center;
+  margin-left: auto;
+  width: 40%;
+ 
+}
+.section_plan{
+  text-align: center;
+  margin: auto;
+  width: 40%;
+}
+
+.button2 {
+    padding: 10px 15px;
+}
+
+.rep_img, .plan_img {
     width: 100%;
-    height: 200px;
-  }
-
-  .desc_rep {
-    text-align: center;
-  }
-
- .desc_meal {
-    text-align: left;
-    margin-left: 10px;
-  }
-
-  .desc_meal a{
-    font-size: 10px;
-    color: #777;
-  }
-
- .plan_img {
-    margin: 20px;
-    float: left;
-    border:1px #060606;
-    width: 180px;
-   
-    background-color: #afaca9;
-
-  }
-  .section_plan{
-   
-    margin-left: 300px;
-    width: 60%;
-    
-   
-  }
-   .section_plan h3{
-      padding-top: 20px;
-      text-align: center; 
-     
-    }
- .plan_img:hover {
-    border: 1px solid #777;
-  }
-  
- .plan_img img {
-    width: 100%;
-    height: 200px;
-  }
-
-  .bg {
-    background-color: #FFF3E3;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:400px;
-   
-  }
+    margin-left: auto;
 
  
-  .button2 {
-    border: 1px, #B88E2F;
-    border-color: #B88E2F;
-    color: #B88E2F;
-    padding: 15px 32px;
-    text-align: center;
-    font-size: 16px;
-    background-color: #ffffff;
-    margin-top: 30px;
-    margin-left: auto;
-   
-  }
+}
+
+footer *{
+
+ font-size: 10px;
+}
+
+.bg {
+  background-color: #FFF3E3;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:1300px;
+ 
+}
 table * {
-  margin-left: 300px;
-  width:150px
+  margin-left: 20px;
+  width:50px
+}
+table tr th h2{
+  padding-right: 40px;
 }
 .menu_el{
   color: #090808;
-  padding-left: 90px;
+  padding-left: 20px;
   padding-right: 0px;
   
 }
 .help_el{
   color: #050505;
-  padding-left: 85px;
+  padding-left: 10px;
   padding-right: 0px;
   
 }
 .contacts{
   color: #777;
-  padding-left: 90px;
+  padding-left: 20px;
   padding-right: 0px;
   
 }
@@ -197,167 +350,14 @@ table * {
   }
 
   footer p{
-    margin-left: 300px;
+    margin-left: 30px;
     color: #777;
   }
   footer hr{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
     color:rgb(236, 234, 234);
     background-color:rgb(236, 234, 234);
   }
-
-/* Responsive design */
-@media only screen and (max-width: 768px) {
-  .title{
-    text-align: left;
-    margin-left: 8px;
-    color: #060606;
-}
-
-  .topnav a{
-    padding: 7px;
-    margin-left: 0px;
-    text-decoration: none;
-    font-size: 13px;
-   
-  }
-  .menu {
-    display: block;
-
-  }
-  .menu a img{
-    height: 14px;
-    width: 14px;
-
-   }
-
-   .rectangle{
-    width:300px;
-    height:200px;
-    background-color: #FFF3E3;
-    position: absolute ;
-    margin-top: 150px;
-    margin-left: 70px;
-    z-index: 0; /* set lower z-index value */
-  
-  }
-
-  .rectangle p{
-    margin-left: 20px;
-    color: #888585;
-    font-size: 14px;
-  }
-
-  .rectangle h3{
-    margin-left: 20px;
-    color: #131313;
-    font-size: 16px;
-  }
-
-  .button {
-    background-color: #B88E2F;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin-top: 280px;
-    margin-left: 150px;
-    cursor: pointer;
-    z-index: 1; /* set higher z-index value */
-    position:absolute;
-   
-  }
-
-  .recepies{
-    text-align: center;
-    margin-left: auto;
-    width: 100%;
-   
-  }
-  
-  .sec{
-    text-align: center;
-    margin-left: auto;
-    width: 40%;
-   
-  }
-  .section_plan{
-    text-align: center;
-    margin: auto;
-    width: 40%;
-  }
-
-  .button2 {
-      padding: 10px 15px;
-  }
-
-  .rep_img, .plan_img {
-      width: 100%;
-      margin-left: auto;
-
-   
-  }
-
-  footer *{
-  
-   font-size: 10px;
-  }
-  
-  .bg {
-    background-color: #FFF3E3;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:1300px;
-   
-  }
-  table * {
-    margin-left: 20px;
-    width:50px
-  }
-  table tr th h2{
-    padding-right: 40px;
-  }
-  .menu_el{
-    color: #090808;
-    padding-left: 20px;
-    padding-right: 0px;
-    
-  }
-  .help_el{
-    color: #050505;
-    padding-left: 10px;
-    padding-right: 0px;
-    
-  }
-  .contacts{
-    color: #777;
-    padding-left: 20px;
-    padding-right: 0px;
-    
-  }
-  .title_form{
-    color: #777;
-    padding: 0px;
-  }
-  
-    #space{
-      margin-top: 50px;
-      color:rgb(236, 234, 234);
-      background-color:rgb(236, 234, 234);
-    }
-  
-    footer p{
-      margin-left: 30px;
-      color: #777;
-    }
-    footer hr{
-      margin-left: 20px;
-      margin-right: 20px;
-      color:rgb(236, 234, 234);
-      background-color:rgb(236, 234, 234);
-    }
 
 }
