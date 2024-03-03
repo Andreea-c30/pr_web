@@ -210,10 +210,76 @@ footer hr{
   .mobile-only {
     display: none;
   }
+  .cupcake{
+    width: 100px;
+    height: auto;
+  }
+
+
 }
+
+
+#message {
+  position: absolute;
+  background-color: #B88E2F;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  display: none;
+  opacity: 1;
+  top:0%;
+  left:50%;
+ 
+}
+.mascota {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  opacity: 0;
+  animation: mascotAppear ease-in 10s infinite;
+  z-index: 2;
+}
+@keyframes mascotAppear {
+  0% {
+    opacity: 0;
+    top: 0;
+    left: 0;
+  }
+  25% {
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    transform: translate(30vw, 10vw);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(50vw, 30vw) rotate(360deg); /* Rotate at center */
+    animation-delay: 4s;
+  }
+  75% {
+    opacity: 0.9;
+    transform: translate(30vw, 10vw);
+  }
+  100% {
+    opacity: 0;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    animation-delay: 2s;
+  }
+}
+/* Show message on hover */
+.cupcake:hover + #message {
+  display: block;
+}
+
+
 
 /* Responsive design */
 @media only screen and (max-width: 768px) {
+
+  
 .title{
   text-align: left;
   margin-left: 8px;
@@ -221,10 +287,10 @@ footer hr{
 }
 
 .topnav a{
-  padding: 7px;
+  padding: 6px;
   margin-left: 0px;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 12px;
  
 }
 .menu {
@@ -232,8 +298,8 @@ footer hr{
 
 }
 .menu a img{
-  height: 14px;
-  width: 14px;
+  height: 12px;
+  width: 12px;
 
  }
 
@@ -381,5 +447,24 @@ table tr th h2{
     text-decoration: underline;
     color: #777;
   }
+  .cupcake{
+    width: 50px;
+    height: auto;
+  }
+
+  #message {
+    position: absolute;
+    background-color: #B88E2F;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: none;
+    opacity: 1;
+    top:0%;
+    left:50%;
+   
+  }
+  
 
 }
