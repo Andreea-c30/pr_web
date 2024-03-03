@@ -206,6 +206,11 @@ footer hr{
   color:rgb(236, 234, 234);
   background-color:rgb(236, 234, 234);
 }
+@media only screen and (min-width: 768px) {
+  .mobile-only {
+    display: none;
+  }
+}
 
 /* Responsive design */
 @media only screen and (max-width: 768px) {
@@ -358,6 +363,23 @@ table tr th h2{
     margin-right: 20px;
     color:rgb(236, 234, 234);
     background-color:rgb(236, 234, 234);
+  }
+
+  .mobile-only{
+    text-align: center;
+    padding: 20px;
+    background-color: #d0bf8d;
+    margin-top: 20px;
+  }
+
+  .deal_img{
+    width: 200px;
+    height: 300px;
+  
+  }
+  .deal{
+    text-decoration: underline;
+    color: #777;
   }
 
 }
