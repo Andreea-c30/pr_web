@@ -238,6 +238,7 @@ footer hr{
   cursor: pointer;
   opacity: 0;
   animation: mascotAppear ease-in 10s 5s infinite;
+
   z-index: 2;
 }
 @keyframes mascotAppear {
