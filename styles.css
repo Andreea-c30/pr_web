@@ -237,7 +237,7 @@ footer hr{
   display: inline-block;
   cursor: pointer;
   opacity: 0;
-  animation: mascotAppear ease-in 10s infinite;
+  animation: mascotAppear ease-in 10s 5s infinite;
   z-index: 2;
 }
 @keyframes mascotAppear {
