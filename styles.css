@@ -1,31 +1,10 @@
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 .title{
   text-align: left;
   margin-left: 150px;
   color: #060606;
 }
-.topnav {
-  overflow: hidden;
-  background-color: #fffefe;
-  padding: 30px;
-}
 
-.topnav a{
-  float: center;
-  color: #060606;
-  text-align: center;
-  padding: 20px 30px;
-  text-decoration: none;
-  font-size: 17px;
-  margin-left: 30px;
-}
-
-.topnav a:hover {
-  color: #B88E2F;
-}
 
 .banner {
   background-image: url('img/banner.jpg');
@@ -72,35 +51,6 @@ body {
  
 }
 
-.recepies{
-  text-align: center;
-  margin: auto;
-  width: 40%;
-}
-.sec{
-  text-align: center;
-  margin: auto;
-  width: 40%;
-}
-
-.rep_img {
-  margin: 10px;
-  float: left;
-  width: 180px;
-}
-
-.rep_img:hover {
-background-color: #afaca9;
-}
-
-.rep_img img {
-  width: 100%;
-  height: 200px;
-}
-
-.desc_rep {
-  text-align: center;
-}
 
 .desc_meal {
   text-align: left;
@@ -150,23 +100,6 @@ background-color: #afaca9;
  
 }
 
-
-.button2 {
-  border: 1px, #B88E2F;
-  border-color: #B88E2F;
-  color: #B88E2F;
-  padding: 15px 32px;
-  text-align: center;
-  font-size: 16px;
-  background-color: #ffffff;
-  margin-top: 30px;
-  margin-left: auto;
- 
-}
-table * {
-margin-left: 300px;
-width:150px
-}
 .menu_el{
 color: #090808;
 padding-left: 90px;
@@ -238,7 +171,6 @@ footer hr{
   cursor: pointer;
   opacity: 0;
   animation: mascotAppear ease-in 10s 5s infinite;
-
   z-index: 2;
 }
 @keyframes mascotAppear {
@@ -287,13 +219,6 @@ footer hr{
   color: #060606;
 }
 
-.topnav a{
-  padding: 6px;
-  margin-left: 0px;
-  text-decoration: none;
-  font-size: 12px;
- 
-}
 .menu {
   display: block;
 
@@ -343,40 +268,20 @@ footer hr{
  
 }
 
-.recepies{
-  text-align: center;
-  margin-left: auto;
-  width: 100%;
- 
-}
-
-.sec{
-  text-align: center;
-  margin-left: auto;
-  width: 40%;
- 
-}
 .section_plan{
   text-align: center;
   margin: auto;
   width: 40%;
 }
 
-.button2 {
-    padding: 10px 15px;
-}
-
-.rep_img, .plan_img {
+.plan_img {
     width: 100%;
     margin-left: auto;
 
  
 }
 
-footer *{
 
- font-size: 10px;
-}
 
 .bg {
   background-color: #FFF3E3;
@@ -385,13 +290,7 @@ footer *{
   height:1300px;
  
 }
-table * {
-  margin-left: 20px;
-  width:50px
-}
-table tr th h2{
-  padding-right: 40px;
-}
+
 .menu_el{
   color: #090808;
   padding-left: 20px;
