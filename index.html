@@ -2,51 +2,39 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
 </head>
 <body>
 
-
-<div class="topnav"> 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light center">
-    
-    <ul class="nav nav-tabs">
-      <li class="nav-item">
-        <a class="navbar-brand" href="#">CookingGlow</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="#section1">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#section2">Recipies</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#section3">Meal Plan</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#section4">Contacts</a>
-      </li>
-      <li class="nav-item">
-        <a  target="_blank" href="img/search.png">
-          <img src="img/search.png" alt="search" width="20" height="20">
-        </a>
-      </li>
-      <li class="nav-item">
-        <a target="_blank" href="img/favourites.png">
-          <img src="img/favourites.png" alt="favourites" width="20" height="20">
-        </a>
-      </li>
-      <li class="nav-item">
-        <a target="_blank" href="img/shop.png">
-          <img src="img/shop.png" alt="shop" width="20" height="20">
-        </a>
-      </li>
-   
-   
-   
-  </ul>
-</nav>
+  <div class="topnav ml-5"> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-white center text-center">
+      <a class="navbar-brand  ml-5 pl-5" href="#">CookingGlow</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link text-dark  pl-5" href="#section1">Home</a>
+          <a class="nav-link text-dark  pl-5" href="#section2">Recipies</a>
+          <a class="nav-link text-dark  pl-5" href="#section3">Meal Plan</a>
+          <a class="nav-link text-dark  pl-5" href="#section4">Contacts</a>
+        </div>
+        <div class="navbar-nav ml-auto mr-auto ">
+          <a class="nav-link pl-5" href="#">
+            <img src="img/search.png" alt="search" width="20" height="20">
+          </a>
+          <a class="nav-link pl-5" href="#">
+            <img src="img/favourites.png" alt="favourites" width="20" height="20">
+          </a>
+          <a class="nav-link pl-5" href="#">
+            <img src="img/shop.png" alt="shop" width="20" height="20">
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>
  
 </div>
 
@@ -187,53 +175,49 @@
 </section>
 </section>
 
-<section id="section4">
-<hr id="space">
-<footer> 
-  
-<table>
-  <tr>
-    <th> <p class="h4">
-      CookingGlow
-    </p></th>
-    <th class="title_form">Content</th>
-    <th class="title_form">Help</th>
-    <th class="title_form">Contacts</th>
-  </tr>
-  <tr>
-    <td> </td>
-    <td class="menu_el">Home</td>
-    <td class="help_el">Payment</td>
-    <td class="contacts">c.1andreea874@gmail.com</td>
-  </tr>
-  <tr>
-    <td> </td>
-    <td class="menu_el">Recipes</td>
-    <td class="help_el">Feedback</td>
-    <td class="contacts">+373 6743439</td>
-  </tr>
-  <tr>
-    <td> </td>
-    <td class="menu_el">Blog</td>
-    <td class="help_el">Privacy Policies</td>
-  </tr>
-  <tr>
-    <td> </td>
-    <td class="menu_el">About</td>
-  
-  </tr>
-  <tr>
-    <td> </td>
-    <td class="menu_el">Contacts</td>
-  
-  </tr>
-</table>
- 
-  <hr>
- <p>
-  2024 All rights reverved
- </p>
+<footer class="bg-light text-dark py-4">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-3">
+              <h5 class="h4 mb-4">CookingGlow</h5>
+          </div>
+          <div class="col-md-3">
+              <h6 class="title_form mb-3">Content</h6>
+              <ul class="list-unstyled">
+                  <li >Home</li>
+                  <li  >Recipes</li>
+                  <li  >Blog</li>
+                  <li  >About</li>
+                  <li  >Contacts</li>
+              </ul>
+          </div>
+          <div class="col-md-3">
+              <h6 class="title_form mb-3">Help</h6>
+              <ul class="list-unstyled">
+                  <li  >Payment</li>
+                  <li  >Feedback</li>
+                  <li  >Privacy Policies</li>
+              </ul>
+          </div>
+          <div class="col-md-3">
+              <h6 class="title_form mb-3">Contacts</h6>
+              <ul class="list-unstyled">
+                  <li>c.1andreea874@gmail.com</li>
+                  <li >+373 6743439</li>
+              </ul>
+          </div>
+      </div>
+      <hr class="bg-light">
+      <div class="row">
+          <div class="col-md-9 text-center">
+              <p class="text-muted text-center">2024 All rights reserved</p>
+          </div>
+      </div>
+  </div>
 </footer>
-</section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
